@@ -31,3 +31,7 @@ spring:
     url: jdbc:h2:file:./src/main/resources/db/rosieedb/rosiee;AUTO_SERVER=TRUE;DB_CLOSE_DELAY=-1;
     username: sa
     password:
+
+jwt:
+  secret: RosieeTecGraWebTokenFrase
+  expiration: 86400000
