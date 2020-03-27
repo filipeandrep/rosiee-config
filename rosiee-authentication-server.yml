@@ -26,15 +26,8 @@ security:
 spring:
   jpa:
     database: H2
-spring:
   datasource:
     driverClassName: org.h2.Driver
-spring:
-  datasource:
     url: jdbc:h2:file:./src/main/resources/db/rosieedb/rosiee;AUTO_SERVER=TRUE;DB_CLOSE_DELAY=-1;
-spring: 
-  datasource:
     username: sa
-spring:
-  datasource:
     password:
