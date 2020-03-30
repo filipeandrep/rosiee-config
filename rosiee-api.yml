@@ -1,6 +1,3 @@
-storage:
-  path: /Users/user/Documents/arquivos-rosiee
-
 spring:
   jpa:
     database: H2
