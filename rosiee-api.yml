@@ -1,0 +1,15 @@
+storage:
+  path: /Users/user/Documents/arquivos-rosiee
+
+spring:
+  jpa:
+    database: H2
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:./src/main/resources/db/rosieedb/rosiee;AUTO_SERVER=TRUE;DB_CLOSE_DELAY=-1;
+    username: sa
+    password: 
+  flyway:
+    user: sa
+    password:
+    schemas: PUBLIC
